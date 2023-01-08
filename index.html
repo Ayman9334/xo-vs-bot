@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X/O GAME</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="borad">
+            <h1>X / O</h1>
+            <div><span id="xscore">0</span> - <span id="oscore">0</span></div>
+        </div>
+        <div class="xoctn">
+            <div id="00" class="xo ivlbl a r1" onclick="makeX(this.id)"></div>
+            <div id="01" class="xo ivlbl a r2" onclick="makeX(this.id)"></div>
+            <div id="02" class="xo ivlbl a r3" onclick="makeX(this.id)"></div>
+            <div id="10" class="xo ivlbl b r1" onclick="makeX(this.id)"></div>
+            <div id="11" class="xo ivlbl b r2" onclick="makeX(this.id)"></div>
+            <div id="12" class="xo ivlbl b r3" onclick="makeX(this.id)"></div>
+            <div id="20" class="xo ivlbl c r1" onclick="makeX(this.id)"></div>
+            <div id="21" class="xo ivlbl c r2" onclick="makeX(this.id)"></div>
+            <div id="22" class="xo ivlbl c r3" onclick="makeX(this.id)"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
